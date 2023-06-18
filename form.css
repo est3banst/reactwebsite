@@ -1,0 +1,33 @@
+.form-control {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    width: 500px;
+}
+.form-control input, textarea ,button, p{
+    font-style: italic;
+    padding: 7px;
+    margin: 0 5px;
+    text-align: center;
+}
+input {
+    border: none !important;
+}
+p {
+    font-weight: 300;
+    font-size: clamp(.7rem, 1.5rem)
+}
+button {
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.Container {
+    display: flex;
+    flex-basis: 70%;
+}
+.About {
+    flex-basis: 40%;
+    text-align: center;
+    padding: 0 8px;
+}

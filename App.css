@@ -1,0 +1,71 @@
+
+
+body {
+    display: block;
+    justify-content: center;
+    align-content: center;
+    box-sizing: content-box;
+    font-family: 'Kanit' ,sans-serif;
+}
+.Placards {
+    background-color: #f9fcff;
+background-image: linear-gradient(147deg, #f9fcff 0%, #dee4ea 74%);
+    padding: .28293rem 30px;
+    border-radius: 5px;
+    width: 70%;
+    margin: auto;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 0 3px;
+    
+}
+button {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    font-size: medium;
+    display: flex;
+    position:sticky;
+    flex-wrap: nowrap;
+    cursor: pointer;
+}
+button li {
+    padding: 2px 11px;
+    margin: 0 4px 0 2px;
+}
+.About{
+    position: fixed;
+    width: 40%;
+    height: 40vh;
+    padding: 1.2rem 6rem;
+    z-index: 777;
+    transition: opacity .4s, visibility .4s ease, transform .5s ease-in-out;
+    background-color: #dee4eab6;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.About svg {
+    position: fixed;
+    width: 2.6rem;
+    height: 2.6rem;
+    right: 25%;
+    top: 25%;
+}
+.Contac {
+    position: fixed;
+    display: block;
+    width: 60%;
+    height: 50%;
+    padding: 5px 7px;
+    z-index: 888;
+    background-color: #dee4eab6;
+}
+.Contac svg {
+    position: fixed;
+    width: 1.8rem;
+    height: 1.8rem;
+    right: 24%;
+    top: 30%;
+    
+}

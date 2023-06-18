@@ -1,0 +1,51 @@
+
+.Hero-link {
+    border-radius: 5px;
+    padding: 3px 8px;
+    background-color: #f9fcff;
+    background-image: linear-gradient(147deg, #f9fcff 0%, #dee4ea 74%);
+    margin-left: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Hero {
+    padding: .232rem 6rem;
+    width: 60%;
+    margin: auto;
+    
+}
+.Hero-section {
+    display: block;
+    text-align: center;
+    border-radius: 3px;
+}
+i svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0 5px;
+    color: black;
+    margin-left: 1.5rem;
+    animation: icon 2s ease-in 2s infinite alternate backwards;
+}
+
+@keyframes icon {
+    0% {
+        margin-left: 1.6rem;
+    }
+    30% {
+        margin-left: 1.9rem;
+    }
+    60% {
+        margin-left: 2.2rem;
+    }   
+    80% {
+        margin-left: 2.4rem;
+    }
+    100% {
+        margin-left: 2.6rem;
+    }
+}
+
+
