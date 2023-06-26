@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: auto;
+    align-items: center;
     width: 500px;
 }
 .form-control input, textarea ,button, p{
@@ -12,7 +12,22 @@
     text-align: center;
 }
 input {
-    border: none !important;
+    /* border: none !important; */
+    border-top: .5px solid #0f0003;
+}
+input:hover {
+    background-color: #ddddcd;
+}
+input:focus {
+    color: #050505;
+    font-size: 1rem;
+}
+textarea:focus {
+    color: #050505;
+    font-size: 1rem;
+}
+form button:focus {
+    background-color: #acac9a;
 }
 p {
     font-weight: 300;

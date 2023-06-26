@@ -113,3 +113,12 @@
     height: 2px;
     background-color: black;
   }
+
+  @media only screen and (width < 768) {
+        .Lines {
+            display: flex;
+            flex-direction: row-reverse;
+            width: 30%;
+        }
+        
+  }
